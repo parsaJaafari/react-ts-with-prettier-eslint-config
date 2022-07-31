@@ -24,7 +24,7 @@
         "eject": "react-scripts eject",
         "lint": "eslint src --color",
         "prettier": "prettier src --check",
-        "lint-staged": "lint-staged --config lint-staged.js",
+        "lint-staged": "lint-staged --config .lintstagedrc.json",
         "husky-install": "husky install"
     },
     "eslintConfig": {
