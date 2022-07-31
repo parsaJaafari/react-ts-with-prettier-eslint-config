@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-    const [first, setFirst] = useState('')
+    console.log('hello');
 
     return (
         <div className="App">
@@ -22,7 +22,7 @@ function App() {
                 </a>
             </header>
         </div>
-    )
+    );
 }
 
-export default App
+export default App;
